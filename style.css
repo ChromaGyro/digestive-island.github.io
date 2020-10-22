@@ -1,0 +1,227 @@
+body {
+    padding: 25px;
+    background-color: rgb(102, 102, 102);
+    color: rgb(216, 216, 216);
+    font-size: 25px;
+
+}
+
+
+
+header{
+    height: 540px;
+    width: 1280px;
+    margin: -10px;
+    text-align: center;
+    font:normal 100px 'Trebuchet MS','Lucida Sans Unicode','Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    
+
+
+}
+
+
+
+nav{
+    background-color: rgb(85, 196, 233);
+    height: 50px;
+    width: 100%;
+    margin-top: -10px;
+}
+
+#Digestive-Point{
+border: 5px solid lightcoral;
+
+
+
+}
+
+.centered {
+    position: absolute;
+    top:25%;
+    left: 35%;
+    font:normal 125px 'Trebuchet MS','Lucida Sans Unicode','Lucida Grande', 'Lucida Sans', Arial, sans-serif
+
+}
+
+#my-name{
+    Position: auto;
+    top:30%;
+    left: 35%;
+    font:normal 50px 'Trebuchet MS','Lucida Sans Unicode','Lucida Grande', 'Lucida Sans', Arial, sans-serif
+
+}
+
+#Home-Btn {
+	box-shadow: 0px 0px 0px 0px #cc00ff;
+	background-color:#7be8ae;
+	border-radius:5px;
+	border:3px solid #81e668;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Trebuchet MS;
+	font-size:18px;
+	padding:4px 16px;
+	text-decoration:none;
+    text-shadow:0px 0px 0px #ffffff;
+    text-align: left;
+    margin-top: 6px;
+    margin-left: 20px;
+
+}
+#Home-Btn:hover {
+    border-color: #7be8ae;
+    color: lightslategray;
+
+}
+#Home-Btn:active {
+	position:relative;
+	top:1px;
+
+}
+
+#Science-Btn {
+	box-shadow: 0px 0px 0px 0px #cc00ff;
+	background-color:#e8b57b;
+	border-radius:5px;
+	border:3px solid #e69a68;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Trebuchet MS;
+	font-size:18px;
+	padding:4px 16px;
+	text-decoration:none;
+    text-shadow:0px 0px 0px #ffffff;
+    text-align: left;
+    margin-top: 6px;
+    margin-right: 20px;
+    margin-left: 20px;
+
+}
+#Science-Btn:hover {
+    border-color: #e69a68;
+    color: lightslategray;
+
+}
+#Science-Btn:active {
+	position:relative;
+	top:1px;
+
+}
+
+#Ride-Info-Btn {
+	box-shadow: 0px 0px 0px 0px #cc00ff;
+	background-color:#e87b7b;
+	border-radius:5px;
+	border:3px solid #e75252;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Trebuchet MS;
+	font-size:18px;
+	padding:4px 16px;
+	text-decoration:none;
+    text-shadow:0px 0px 0px #ffffff;
+    text-align: left;
+    margin-top: 6px;
+
+}
+#Ride-Info-Btn:hover {
+    border-color: #e75252;
+    color: lightslategray;
+
+}
+#Ride-Info-Btn:active {
+	position:relative;
+	top:1px;
+
+}
+
+#Main-Thing{
+    position: relative;
+    top: -400px;
+    left: 400px;
+    margin-right: 1000px;
+
+
+}
+
+
+.Context{
+    color: white;
+    font:normal 14px 'Trebuchet MS','Lucida Sans Unicode','Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+
+}
+
+
+#Top-Header{
+    font:normal 50px 'Trebuchet MS','Lucida Sans Unicode','Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    text-align: center;
+
+}
+
+
+.flex-container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 1560px;
+    height: 990px;
+    background-color: gray;
+    top: 380px;
+    text-align: center;
+
+
+}
+
+.flex-container > div {
+    color: darkslategray;
+    margin: 10px;
+    background-color: whitesmoke;
+    font:normal 16px 'Trebuchet MS','Lucida Sans Unicode','Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+.Flex-Text{
+    position:relative;
+    color:white;
+    display:block;
+    width: 500px;
+    height: 300px;
+
+}
+
+.Flex-Text:hover{
+    cursor: pointer;
+
+
+}
+
+.Overlay{
+    display: none;
+    align-items: center;
+
+}
+
+.Flex-Text:hover .Overlay{
+    position:absolute;
+  top:0;
+  left:0;
+display: flex;
+  flex-direction:column;
+  justify-content:center;
+  background: #1d1f21;
+  border-radius: 5px;
+    width:100%;
+  height:100%;
+   opacity:0.95;
+
+
+
+}
